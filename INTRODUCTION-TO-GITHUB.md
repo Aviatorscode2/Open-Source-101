@@ -106,3 +106,8 @@ Github Desktop is a graphical user interface that helps you intereact with Githu
 
 Github CLI is a command line tool that helps you access various Github features without having to leave your terminal. you can make a pull requests, open an issue and so on. Here is a list of some Github CLI commands, you can find ohers here
 
+# Conclusion
+Knowing how Git and Github works is important as a developer or technical writer who is looking to collaborate with others and work on amazing projects, It is an important criteria if you want to be employeable.
+In this article we have been able to cover some aspects of Github like; how to make a pull request, fork a repository, how to clone a reposotiry, we even touched the dofference between Git and Github and difference between Github desktop and Github CLI. But that is not all, there is still more to learn, and for that reason, I will be suggesting relavant resources you can use to learn more about Git and Github.
+
+## Other Relevant Resources
