@@ -79,10 +79,16 @@ When you want to contribute to a project that isn't yours, before cloning, the f
 If you go ahead and clone a repository you don't have access to without first forking it, you won't be able to make contributions to that repository because it is not yours. But when you fork the repository first, you have a copy you can make changes to, and after making your desired change, you can push (store) that change(s) to GitHub and then make a pull request to the original repository.
 
 To fork a repository, follow these steps:
-- Go to that repository on Github and click on fork ![fork repository](images/fork.png)
-- You will see a new screen like the one below ![fork repository page](images/fork1.png)
+- Go to that repository on Github and click on fork 
+
+![fork repository](images/fork.png)
+- You will see a new screen like the one below 
+
+![fork repository page](images/fork1.png)
 - Click on create fork. (You can also change the name of the repository if you want to)
-If the forking is successful, you will notice you now have a repository by that name. You will also see that it will point you to the original repository it was forked from. ![showing original forked repository](images/fork2.png)
+If the forking is successful, you will notice you now have a repository by that name. You will also see that it will point you to the original repository it was forked from. 
+
+![showing original forked repository](images/fork2.png)
 
 ## How do i make a commit
 As you work on your projects or contribute to other projects, for each bug you fix or addition you make, you should write a commit message, describing in simple, short, and clear terms what changes you made.This commit message helps you know when and what change you made at a particular time, and if its a project you are contributing to, it helps the maintainer of that project know what changes you made even before looking at the code.
