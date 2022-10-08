@@ -28,8 +28,28 @@ How do I clone a Repository?
 Cloning, just like the name suggest is creating a copy of a remote repository in your local machine, with the repository was created by you or not, you can clone it. And how do you do this? you can either use the Github Desktop or the command line. I will work you through how to do both.
 
 Cloning with Github Desktop
-You will need to have the Github Desktop application installed in your local machine.
+You will need to have the Github Desktop application installed in your local machine. If you have that installed, here are the steps to take:
 
+Go to the repository you want to clone on Github
+click on the code buttton, a drop down menu will appear
+click on Open with Github Desktop
+If you have Github installed, a prompt will appear asking you for permission to open the Github desktop Application, But if you don't have it installed, Github will ask you to download it.
+After granting the permission, the Github Destop application will be opened, showing the interface below
+
+click on clone
+
+If the cloning is successfully, it means you now have acopy of that repository in your local machine. Search for that repository in your local machine and you will find it inside a Github folder.
+
+There is another approach you can take in cloning using the Github Desktop application.
+to do this, follow these steps
+Open the Github Desktop application
+Click on file, a drop down will appear
+Click on Clone repository
+A modal will pop up. where you can either use Github.com, Github Enterprise or URL.
+Under Github.com, you will see a list of all repositories you have created or forked, you can choose any of the repository and click on clone.
+
+Under Github Enterprise, you will need to have a Github Enterprise to use it.
+Under URL, you will need to copy the URL of the Github repository you want to clone and paste it on the empty field, After that, click on clone.
 
 
 Cloning with the command line
@@ -47,8 +67,22 @@ when you go to the github reposotory you want to clone,
 How do I make a Pull request
 
 How can I fork a repository
-When you want to contribute to a project that isn't yours, before cloning the first thing you need to do is to fork that repository. By forking that repository all you trying to do is have that repos
+When you want to contribute to a project that isn't yours, before cloning the first thing you need to do is to fork that repository. By forking that repository, you are creating a personal copy of that repository on your Github, after forking, you will notice that the repository will be added to your list of repositories on github.
+
+If you go ahead to clone a repository you don't have access to without first forking it, you won't be able to make contributions to that repository because it is not yours. But when you fork the repository first, you have a copy you can make changes to, and after making your desired change, you can push (store) that change(s) on github.
+
+Now here is the interesting part, when Github notices that you have made a change that is not on the parent repository (i.e the repository you forked from), You will see a prompt that will ask you to create a pull request.
+
+To fork a repository, follow these steps
+Go to that repository on Github and click on fork
+you will see a new screen like the one below
+Click on create fork (You can also change the name of the repository if you want to)
+If the forking is successsful, you will notice you now have a repository by that name, you will also see that it will point you to the original repository it was forked from.
 
 How do i make a commit
+As you work on your projects or contribute to other projects, for each bug you fix or addition you make, you can write a commit message, describing in simple, short and clear terms what changes you made.This commit messages helps you know when and what change you made at a particular time, and if its a project you are contribuuting to, it helps the maintainer of that project to know what changes you made even before looking at the code.
+
+So how do you make commits? it is quite simple. Let's see how
+
 
 GitHub Desktop vs Github CLI
