@@ -96,8 +96,11 @@ or
 `git add .` To Stage all the changes you made.
 
 After staging your changes, you can then proceed to commiting your changes by running the command below
+
 `git commit -m "[commit message]"`
-example is
+
+an example is
+
 `git commit -m "Added dashboard pagination"`
 
 
