@@ -87,12 +87,13 @@ If the forking is successful, you will notice you now have a repository by that 
 ## How do i make a commit
 As you work on your projects or contribute to other projects, for each bug you fix or addition you make, you should write a commit message, describing in simple, short, and clear terms what changes you made.This commit message helps you know when and what change you made at a particular time, and if its a project you are contributing to, it helps the maintainer of that project know what changes you made even before looking at the code.
 So how do you make commits on Github? Before making a commit, you should first stage the changes you have made. 
-either by using
-`git add [name of file]`
-To stage a particular file
+either by using:
+
+`git add [name of file]` To stage a particular file
+
 or
-`git add .`
-to Stage all the changes you made.
+
+`git add .` To Stage all the changes you made.
 
 After staging your changes, you can then proceed to commiting your changes by running the command below
 `git commit -m "[commit message]"`
