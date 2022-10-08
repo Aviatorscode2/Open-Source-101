@@ -65,6 +65,12 @@ click enter
 when you go to the github reposotory you want to clone, 
 
 How do I make a Pull request
+After forking a reposistory and making your contribution to a project, you need a way to be able to tell the owner or maintainer of that projects that you have made a contribution and that you will want them to merge it to the main project reposistory. Pull request is the way to do that.
+
+So two things happen when you fork a repository on Github, Github watches both your repository and the repository you forked from. Through that, Github notifies you when changes has been made to the original repository you forked from asking you to updating branch, It is important you ensure that your branch is in sync with the original branch before raising a pull request. 
+
+Github also tells you when you forked branch is ahead of the original branch, under the contribute option, you will see an active button telling you to open a pull request.
+
 
 How can I fork a repository
 When you want to contribute to a project that isn't yours, before cloning the first thing you need to do is to fork that repository. By forking that repository, you are creating a personal copy of that repository on your Github, after forking, you will notice that the repository will be added to your list of repositories on github.
@@ -80,9 +86,23 @@ Click on create fork (You can also change the name of the repository if you want
 If the forking is successsful, you will notice you now have a repository by that name, you will also see that it will point you to the original repository it was forked from.
 
 How do i make a commit
-As you work on your projects or contribute to other projects, for each bug you fix or addition you make, you can write a commit message, describing in simple, short and clear terms what changes you made.This commit messages helps you know when and what change you made at a particular time, and if its a project you are contribuuting to, it helps the maintainer of that project to know what changes you made even before looking at the code.
+As you work on your projects or contribute to other projects, for each bug you fix or addition you make, you should write a commit message, describing in simple, short and clear terms what changes you made.This commit messages helps you know when and what change you made at a particular time, and if its a project you are contribuuting to, it helps the maintainer of that project to know what changes you made even before looking at the code.
 
-So how do you make commits? it is quite simple. Let's see how
+So how do you make commits? Before making a commit, you should first stage the changes you have made. either by using
+git add [name of file]
+To stage a partcular file
+or
+git add . 
+to Stage all the changes you made.
+
+After staging your changes, you can then proceed to commiting your changes by running the command below
+git commit -m "[commit message]"
+example is
+git commit -m "Added dashboard pagination"
 
 
 GitHub Desktop vs Github CLI
+Github Desktop is a graphical user interface that helps you intereact with Github without using the browser. From the Github Desktop you can perform actions such as creating a repositoy, cloning a repository, making a pull requests and commits just with few clicks.
+
+Github CLI is a command line tool that helps you access various Github features without having to leave your terminal. you can make a pull requests, open an issue and so on. Here is a list of some Github CLI commands, you can find ohers here
+
