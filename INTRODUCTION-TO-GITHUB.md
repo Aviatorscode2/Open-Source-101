@@ -1,9 +1,9 @@
 # Introduction To GitHub
 ## The table of content 
-### [Introduction](#introduction)
+### [Introduction](#)
 ### [What is GitHub](#github-id)
 ### [Why GitHub](#why-github-id)
-### [Git vs. GitHub](#git-vs-github)
+### [Git vs. GitHub](#vs)
 ### [How to Clone a Github Repository](#clone)
 ### [How to Fork a Github Repository](#fork)
 ### [How to Make Commit](#commit)
@@ -11,7 +11,7 @@
 ### [GitHub Desktop vs. Github CLI](#github-vs-cli)
 ### [Conclusion](#conclusion)
 
-The <a name="introduction"></a>beauty of open source is the opportunity it provides to tech euthiasist all over the world. The possibility of having people from different parts of the world contribute to a particular project in real time is really incredible.
+The beauty of open source is the opportunity it provides to tech euthiasist all over the world. The possibility of having people from different parts of the world contribute to a particular project in real time is really incredible.
 And one tool that makes these contributions and collaborations possible is Github. In this article we will be going through some basic things you need to know about Github so that you can start contributing to projects today.
 
 ## What is Github <a name="github-id"></a>
@@ -28,7 +28,7 @@ Finally, Github also allows you to collaborate on projects. After storing my cod
 ## Why Github? <a name="why-github-id"></a>
 I think this question is relative. The reason is that each person you ask might have a different platform they prefer. However, Github seems to be more popular amongst the developer community. And, I was introduced to Github first, and over time I have discovered that it's easier to use and easier for collaboration and making contributions.
 
-## What is the difference between Git and Github <a name="git-vs-github"></a>
+## What is the difference between Git and Github <a name="vs"></a>
 This is one question lots of newbies ask, and maybe because oftentimes they have heard people mention Git and Github in the same sentence, but they couldn't be more different. 
 
 Git is a version control system that answers questions like when was a change made, who made that change, what folder or file was the change made in, and why was the change made. 
