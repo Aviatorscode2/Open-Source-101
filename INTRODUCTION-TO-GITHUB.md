@@ -14,7 +14,7 @@
 The beauty of open source is the opportunity it provides to tech euthiasist all over the world. The possibility of having people from different parts of the world contribute to a particular project in real time is really incredible.
 And one tool that makes these contributions and collaborations possible is Github. In this article we will be going through some basic things you need to know about Github so that you can start contributing to projects today.
 
-## What is Github [](#){name=github-id}
+## What is Github <a name="github-id"></a>
 Github is a hosting platform that allows you to store, version, or track changes and also collaborate with other individuals on software projects. 
 
 You may be asking what all this means. Let me explain. Imagine I started a project on my local machine, but I want a place where I can save this project online so that I can easily retrieve it in case anything happens to my local machine (store). That's one advantage of Github. 
