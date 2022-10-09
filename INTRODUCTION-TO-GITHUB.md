@@ -25,17 +25,17 @@ Github is also able to track changes made to that project. This is important bec
 
 Finally, Github also allows you to collaborate on projects. After storing my code on Github, if I make the project repository public, anybody from anywhere in the world can also make contributions to that project.
 
-## [Why Github?](#why-github-id)
+## Why Github? <a name="why-github-id"></a>
 I think this question is relative. The reason is that each person you ask might have a different platform they prefer. However, Github seems to be more popular amongst the developer community. And, I was introduced to Github first, and over time I have discovered that it's easier to use and easier for collaboration and making contributions.
 
-## [What is the difference between Git and Github](#git-vs-github)
+## What is the difference between Git and Github <a name="git-vs-github"></a>
 This is one question lots of newbies ask, and maybe because oftentimes they have heard people mention Git and Github in the same sentence, but they couldn't be more different. 
 
 Git is a version control system that answers questions like when was a change made, who made that change, what folder or file was the change made in, and why was the change made. 
 
 While Github is a platform that uses the power of Git to help you manage Git repositories, that is why you can track changes made to a repository in Github.
 
-## [How to Clone a Github Repository](#clone)
+## How to Clone a Github Repository <a name="clone"></a>
 Cloning, just like the name suggest is creating a copy of a remote repository in your local machine, with the repository was created by you or not, you can clone it. And how do you do this? you can either use the Github Desktop or the command line. I will work you through how to do both.
 
 **Cloning with Github Desktop**
@@ -72,7 +72,7 @@ Before you can clone the repository on your local machine, you will first need t
 - Click enter
 
 
-## [How To Fork a Github Repository](#fork)
+## How To Fork a Github Repository <a name="#fork"></a>
 When you want to contribute to a project that isn't yours, before cloning, the first thing you need to do is to fork that repository. By forking that repository, you are creating a personal copy of that repository on your Github. After forking, you will notice that the repository will be added to your list of repositories on GitHub.
 
 **Why do I need to fork a repository?**
@@ -90,7 +90,7 @@ If the forking is successful, you will notice you now have a repository by that 
 
 ![showing original forked repository](images/fork2.png)
 
-## [How to Make a Commit](#commit)
+## How to Make a Commit <a name="commit"></a>
 As you work on your projects or contribute to other projects, for each bug you fix or addition you make, you should write a commit message, describing in simple, short, and clear terms what changes you made.This commit message helps you know when and what change you made at a particular time, and if its a project you are contributing to, it helps the maintainer of that project know what changes you made even before looking at the code.
 So how do you make commits on Github? Before making a commit, you should first stage the changes you have made. 
 either by using:
@@ -109,7 +109,7 @@ an example is
 
 `git commit -m "Added dashboard pagination"`
 
-## [How to make a Pull Request](#pull)
+## How to make a Pull Request <a name="pull"></a>
 After forking a repository and making your contribution to a project, you need a way to be able to tell the owner or maintainer of that project that you have made a contribution and that you will want them to merge it into the main project repository. A pull request is the way to do that.
 
 What happens when you fork a repository on Github? Github watches your forked repository and the repository you forked from for any changes in both repositories. Github is able to tell when changes have been made to the original repository you forked from. 
@@ -132,13 +132,14 @@ When you have pushed your changes to Github, click on the `contribute` option.
 
 Then click on the `Open pull request` button to create a pull request.
 
-## [GitHub Desktop vs Github CLI](#github-vs-cli)
+## GitHub Desktop vs Github CLI <a name="github-vs-cli"></a>
 [Github Desktop](https://desktop.github.com/) is a graphical user interface that helps you interact with Github without using the browser. From the Github Desktop, you can perform actions such as creating a repository, cloning a repository, making a pull request, and committing just with a few clicks.
 
 [Github CLI](https://cli.github.com/) is a command-line tool that helps you access various Github features without having to leave your terminal. you can make a pull request, open an [issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues), and so on. You can see the list of Github CLI commands [here](https://cli.github.com/manual/gh).
 
-## [Conclusion](#conclusion)
+## Conclusion <a name="conclusion"></a>
 Knowing how Git and GitHub work is important for a developer or technical writer who is looking to collaborate with others and work on amazing projects. It is also an important criterion if you want to be employable.
+
 In this article, we have been able to cover some aspects of Github, like how to make a pull request, how to fork a repository, and how to clone a repository. We even touched on the difference between Git and GitHub and the difference between GitHub desktop and Github CLI. But that is not all. There is still more to learn, and for that reason, I will be suggesting relevant resources you can use to learn more about Git and Github.
 
 ## Other Relevant Resources
