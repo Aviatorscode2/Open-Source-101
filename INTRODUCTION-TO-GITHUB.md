@@ -1,6 +1,6 @@
 # Introduction To GitHub
 ## The table of content 
-### Introduction
+### [Introduction](#introduction)
 ### [What is GitHub](#github-id)
 ### [Why GitHub](#why-github-id)
 ### [Git vs. GitHub](#git-vs-github)
@@ -11,7 +11,7 @@
 ### [GitHub Desktop vs. Github CLI](#github-vs-cli)
 ### [Conclusion](#conclusion)
 
-The beauty of open source is the opportunity it provides to tech euthiasist all over the world. The possibility of having people from different parts of the world contribute to a particular project in real time is really incredible.
+The <a name="introduction"></a>beauty of open source is the opportunity it provides to tech euthiasist all over the world. The possibility of having people from different parts of the world contribute to a particular project in real time is really incredible.
 And one tool that makes these contributions and collaborations possible is Github. In this article we will be going through some basic things you need to know about Github so that you can start contributing to projects today.
 
 ## What is Github <a name="github-id"></a>
