@@ -117,7 +117,7 @@ After forking a repository and making your contribution to a project, you need a
 What happens when you fork a repository on Github? Github watches your forked repository and the repository you forked from for any changes in both repositories. Github is able to tell when changes have been made to the original repository you forked from. 
 It's important that you ensure that your branch is in sync with the original branch before raising a pull request. If you don't, it will create [merge conflicts](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts).
 
-How do you know if new changes have been made to the original repository you forked from? It is simple, just go to your own forked repository and click on the ==Sync fork== option. If there has been new commits made to the original repository, you should see this
+How do you know if new changes have been made to the original repository you forked from? It is simple, just go to your own forked repository and click on the <mark>Sync fork</mark> option. If there has been new commits made to the original repository, you should see this
 
 ![pull request](images/pull1.png)
 
