@@ -11,6 +11,8 @@
 ### [GitHub Desktop vs. Github CLI](#github-vs-cli)
 ### [Conclusion](#conclusion)
 
+---
+
 The beauty of open source is the opportunity it provides to tech euthiasist all over the world. The possibility of having people from different parts of the world contribute to a particular project in real time is really incredible.
 And one tool that makes these contributions and collaborations possible is Github. In this article we will be going through some basic things you need to know about Github so that you can start contributing to projects today.
 
@@ -115,7 +117,7 @@ After forking a repository and making your contribution to a project, you need a
 What happens when you fork a repository on Github? Github watches your forked repository and the repository you forked from for any changes in both repositories. Github is able to tell when changes have been made to the original repository you forked from. 
 It's important that you ensure that your branch is in sync with the original branch before raising a pull request. If you don't, it will create [merge conflicts](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts).
 
-How do you know if new changes have been made to the original repository you forked from? It is simple, just go to your own forked repository and click on the ``Sync fork`` option. If there has been new commits made to the original repository, you should see this
+How do you know if new changes have been made to the original repository you forked from? It is simple, just go to your own forked repository and click on the ==Sync fork== option. If there has been new commits made to the original repository, you should see this
 
 ![pull request](images/pull1.png)
 
